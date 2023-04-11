@@ -1,0 +1,8 @@
+#mainContainer {
+    margin: auto;
+}
+.mainIcon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
