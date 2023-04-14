@@ -1,8 +1,21 @@
-#mainContainer {
-    margin: auto;
+html, body {
+    background-color: rgb(15, 16, 70);
 }
+
+#mainContainer {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgLink {
+    text-decoration: none;
+}
+
 .mainIcon {
-    display: inline-block;
     height: 50px;
     width: 50px;
+    text-decoration: none;
 }
