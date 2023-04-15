@@ -62,14 +62,14 @@ footer p {
     #avatarIcon {
         margin: .3em;
         border-radius: 50%;
-        height: 2.5em;
-        width: 2.5em;
+        height: 3em;
+        width: 3em;
     }
     
     #imgContainer .mainIcon {
-        height: 1.5em;
-        width: 1.5em;
-        padding-left: .6em;
+        height: 2em;
+        width: 2em;
+        padding-left: .5em;
         text-decoration: none;
     }
 }
