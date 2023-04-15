@@ -18,7 +18,7 @@ a #mailIcon {
     width: 7em;
 }
 
-#mainContainer {
+#imgContainer {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -26,14 +26,19 @@ a #mailIcon {
     transform: translate(-50%, -50%);
 }
 
-.imgLink {
+#imgContainer .mainIcon {
+    height: 5em;
+    width: 5em;
+    padding-left: .6em;
     text-decoration: none;
 }
 
-.mainIcon {
-    height: 5em;
-    width: 5em;
+#imgContainer .imgLink {
     text-decoration: none;
+}
+
+#imgContainer #firstImg {
+    padding-left: 0;
 }
 
 #footerWrapper {
