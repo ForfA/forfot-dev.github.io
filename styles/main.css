@@ -56,20 +56,3 @@ footer {
 footer p {
     float: left;
 }
-
-/*Smaller than "medium" device*/
-@media only screen and (max-width: 768px) {
-    #avatarIcon {
-        margin: .5em;
-        border-radius: 50%;
-        height: 3.8em;
-        width: 3.8em;
-    }
-    
-    #imgContainer .mainIcon {
-        height: 2.5em;
-        width: 2.5em;
-        padding-left: .5em;
-        text-decoration: none;
-    }
-}
