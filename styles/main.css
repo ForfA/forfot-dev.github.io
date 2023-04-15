@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(191,138,240);
+    font-family: 'Roboto', sans-serif;
+}
+
+a #mailIcon {
+    height: 2em;
+    width: 2em;
+    float: right;
+    margin: 8px 0px 0px 10px;
+    filter:opacity(50%)
+}
+
+#avatarIcon {
+    margin: 1em;
+    border-radius: 50%;
+    height: 7em;
+    width: 7em;
+}
+
+#mainContainer {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgLink {
+    text-decoration: none;
+}
+
+.mainIcon {
+    height: 5em;
+    width: 5em;
+    text-decoration: none;
+}
+
+#footerWrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    display: inline-block;
+    color: rgba(10,10,10,0.7)
+}
+
+footer p {
+    float: left;
+}
