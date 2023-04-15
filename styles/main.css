@@ -30,7 +30,6 @@ body {
 
 #imgContainer #firstImg {
     padding-left: 0;
-    padding-top: 0;
 }
 
 #footerWrapper {
@@ -58,19 +57,20 @@ footer a #mailIcon {
 }
 
 @media only screen and (max-width:540px) {
-    #imgContainer {
-        width: 30%;
-    }
-
     #avatarIcon {
         margin: .5em;
         height: 6em;
         width: 6em;
     }
+
+    #imgContainer {
+        width: 25%;
+        text-align: center;
+    }
+
     #imgContainer .mainIcon {
-        height: 6em;
-        width: 6em;
         padding-left: 0;
         padding-top: 1.5em;
+        text-align: center;
     }
 }
