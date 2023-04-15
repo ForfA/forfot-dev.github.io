@@ -3,14 +3,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a #mailIcon {
-    height: 2em;
-    width: 2em;
-    float: right;
-    margin: 8px 0px 0px 10px;
-    filter:opacity(50%)
-}
-
 #avatarIcon {
     margin: 1em;
     border-radius: 50%;
@@ -30,7 +22,6 @@ a #mailIcon {
     height: 5em;
     width: 5em;
     padding-left: .6em;
-    text-decoration: none;
 }
 
 #imgContainer .imgLink {
@@ -39,6 +30,7 @@ a #mailIcon {
 
 #imgContainer #firstImg {
     padding-left: 0;
+    padding-top: 0;
 }
 
 #footerWrapper {
@@ -55,4 +47,30 @@ footer {
 
 footer p {
     float: left;
+}
+
+footer a #mailIcon {
+    height: 2em;
+    width: 2em;
+    float: right;
+    margin: 8px 0px 0px 10px;
+    filter:opacity(50%)
+}
+
+@media only screen and (max-width:540px) {
+    #imgContainer {
+        width: 30%;
+    }
+
+    #avatarIcon {
+        margin: .5em;
+        height: 6em;
+        width: 6em;
+    }
+    #imgContainer .mainIcon {
+        height: 6em;
+        width: 6em;
+        padding-left: 0;
+        padding-top: 1.5em;
+    }
 }
