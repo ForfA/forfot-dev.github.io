@@ -60,16 +60,16 @@ footer p {
 /*Smaller than "medium" device*/
 @media only screen and (max-width: 768px) {
     #avatarIcon {
-        margin: .5em;
+        margin: .3em;
         border-radius: 50%;
-        height: 3.5em;
-        width: 3.5em;
+        height: 2.5em;
+        width: 2.5em;
     }
     
     #imgContainer .mainIcon {
-        height: 2em;
-        width: 2em;
-        padding-left: .5em;
+        height: 1.5em;
+        width: 1.5em;
+        padding-left: .6em;
         text-decoration: none;
     }
 }
